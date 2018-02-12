@@ -1,2 +1,2 @@
 # photographer-portfolio
-Portfolio for an imaginary photographer
+My first HTML / CSS academic project. A portfolio for an imaginary photographer
