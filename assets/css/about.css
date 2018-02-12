@@ -1,0 +1,170 @@
+body, html {
+	margin: 0;
+	height: 100%;
+}
+
+
+
+
+.head-container {
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background: url('../img/john.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100%
+}
+
+.background {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.head-main {
+	flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.head-main h1 {
+    display: flex;
+    justify-content: center;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 6rem;
+	text-align: center
+}
+
+.nav {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    width: 55px;
+    align-self: flex-end;
+    padding: 1rem;
+}
+
+.down-arrow {
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+
+}   
+
+.about-text {
+	max-width: 100%;
+	margin-top: 7%;
+	margin-left: 10%;
+	margin-right: 30%;
+
+}
+
+.featured {
+	margin-left: 10%;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+	line-height: 50%;
+}
+
+
+.hvr-grow {
+	display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+.subtitle {
+	margin-top: 7%;
+	margin-left: 10%;
+	margin-right: 30%;
+}
+
+
+/*Tablet*/
+@media  (max-width: 768px) {
+    
+    .about-text {
+        text-align: center;
+        margin: auto;
+        width: 60%;
+        margin-top: 7%;
+    }
+
+    .featured {
+
+    margin: auto;
+    text-align: center;
+    }
+
+    .subtitle {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    }
+
+    .form-style-1 {
+    margin: auto;
+    }
+
+    .background {
+    object-fit: center center;
+    }
+
+    .social {
+        margin: auto;
+    }
+    
+}
+
+
+@media  (max-width: 412px) {
+    
+    .form-style-1 {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .about-text {
+        width: 80%;
+    }
+
+    .head-main h1 {
+        font-size: 50px;
+    }
+
+    .social {
+        margin: auto;
+    }
+
+    .follow
+    p {
+        display: none;
+    }
+}
+
+
